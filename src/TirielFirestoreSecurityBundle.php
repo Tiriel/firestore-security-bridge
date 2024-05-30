@@ -8,7 +8,7 @@ use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigura
 use Symfony\Component\DependencyInjection\Loader\Configurator\ReferenceConfigurator;
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 
-class FirestoreSecurityBridge extends AbstractBundle
+class TirielFirestoreSecurityBundle extends AbstractBundle
 {
     public function loadExtension(array $config, ContainerConfigurator $container, ContainerBuilder $builder): void
     {
