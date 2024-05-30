@@ -4,4 +4,4 @@ services:
         autoconfigure: false
 
     tiriel.firestore_security.user_provider:
-        class: Tiriel\FirestoreSecurityBidge\Security\Provider\FirestoreUserProvider
+        class: Tiriel\FirestoreSecurityBridge\Security\Provider\FirestoreUserProvider

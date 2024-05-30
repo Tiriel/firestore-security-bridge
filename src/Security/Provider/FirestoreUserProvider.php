@@ -10,7 +10,7 @@ use Tiriel\FirestoreOdmBundle\Manager\Interface\DtoManagerInterface;
 use Tiriel\FirestoreSecurityBridge\Dto\AbstractUser;
 use Tiriel\FirestoreSecurityBridge\Exception\InvalidFirestoreDtoTypeException;
 
-abstract class FirestoreUserProvider implements UserProviderInterface
+class FirestoreUserProvider implements UserProviderInterface
 {
     public function __construct(
         protected readonly DtoManagerInterface $manager,
