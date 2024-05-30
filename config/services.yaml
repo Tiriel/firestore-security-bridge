@@ -1,0 +1,7 @@
+services:
+    _defaults:
+        autowire: false
+        autoconfigure: false
+
+    tiriel.firestore_security.user_provider:
+        class: Tiriel\FirestoreSecurityBidge\Security\Provider\FirestoreUserProvider
