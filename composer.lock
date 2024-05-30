@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f9b244523cc78ae98d99b0a7441d46ae",
+    "content-hash": "4a2a66d6fafbacabfc76b154915c080a",
     "packages": [
         {
             "name": "beste/clock",
@@ -5107,16 +5107,16 @@
         },
         {
             "name": "tiriel/firestore-odm-bundle",
-            "version": "v0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Tiriel/firestore-odm-bundle.git",
-                "reference": "a80d681364df488aad09d0e04cfea2ce7771e7d9"
+                "reference": "e3e27fd5d0a2dacab22bf445c8958e09fe76ba21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Tiriel/firestore-odm-bundle/zipball/a80d681364df488aad09d0e04cfea2ce7771e7d9",
-                "reference": "a80d681364df488aad09d0e04cfea2ce7771e7d9",
+                "url": "https://api.github.com/repos/Tiriel/firestore-odm-bundle/zipball/e3e27fd5d0a2dacab22bf445c8958e09fe76ba21",
+                "reference": "e3e27fd5d0a2dacab22bf445c8958e09fe76ba21",
                 "shasum": ""
             },
             "require": {
@@ -5147,9 +5147,9 @@
             "description": "Small and Basic ODM for Google Cloud Firestore Database",
             "support": {
                 "issues": "https://github.com/Tiriel/firestore-odm-bundle/issues",
-                "source": "https://github.com/Tiriel/firestore-odm-bundle/tree/v0.1.0"
+                "source": "https://github.com/Tiriel/firestore-odm-bundle/tree/v0.1.1"
             },
-            "time": "2024-05-30T09:55:53+00:00"
+            "time": "2024-05-30T11:29:15+00:00"
         }
     ],
     "packages-dev": [],
@@ -5158,7 +5158,9 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^8.2"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }

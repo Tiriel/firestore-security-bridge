@@ -12,8 +12,9 @@ use Tiriel\FirestoreSecurityBridge\Exception\InvalidFirestoreDtoTypeException;
 
 abstract class FirestoreUserProvider implements UserProviderInterface
 {
-    public function __construct(protected readonly DtoManagerInterface $manager)
-    {
+    public function __construct(
+        protected readonly DtoManagerInterface $manager,
+    ) {
     }
 
     /**
@@ -56,5 +57,8 @@ abstract class FirestoreUserProvider implements UserProviderInterface
         return $results[0];
     }
 
-    abstract public function getClass(): string;
+    public function getClass(): string
+    {
+        return $this->manager->getClass();
+    }
 }
