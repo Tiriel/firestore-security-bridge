@@ -3,8 +3,8 @@
     "description": "Symfony Bridge to provide UserProvider for Firestore-persisted users in Symfony",
     "type": "symfony-bundle",
     "require": {
-        "php": "^8.2",
-        "tiriel/firestore-odm-bundle": "^0.1.0",
+        "php": "^8.1",
+        "tiriel/firestore-odm-bundle": "^0.2",
         "symfony/security-bundle": "^7.0"
     },
     "license": "MIT",
