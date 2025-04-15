@@ -4,7 +4,7 @@
     "type": "symfony-bundle",
     "require": {
         "php": "^8.1",
-        "tiriel/firestore-odm-bundle": "^0",
+        "tiriel/firestore-odm-bundle": "~0",
         "symfony/security-bundle": "^6.4||^7.0"
     },
     "license": "MIT",
